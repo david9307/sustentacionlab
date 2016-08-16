@@ -67,7 +67,7 @@ public class ventas extends Productos{
   System.out.println("4.Mostrar inventario");
   System.out.println("5.Realizar ventas");
   System.out.println("6.Mostrar ganancias totales");
-  System.out.println("Salir");
+  System.out.println("7 Salir");
   sel=leer.nextInt();
   
   switch(sel){
@@ -168,6 +168,9 @@ public class ventas extends Productos{
         dinero=0;
        break;
     
+       case 7:
+        i=1;
+        break;
 }
 
 }
